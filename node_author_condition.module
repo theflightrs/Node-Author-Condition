@@ -1,0 +1,27 @@
+<?php
+/**
+ * @file
+ * Adds a Node Author visibility condition to Backdrop layouts.
+ */
+
+/**
+ * Implements hook_autoload_info().
+ */
+function node_author_condition_autoload_info() {
+  return array(
+    'NodeAuthorLayoutAccess' => 'node_author_layout_access.inc',
+  );
+}
+
+/**
+ * Implements hook_layout_access_info().
+ */
+function node_author_condition_layout_access_info() {
+  $info['node_author'] = array(
+    'title' => t('Node author is current user'),
+    'description' => t('Control access if the logged-in user authored the node or is an administrator.'),
+    'class' => 'NodeAuthorLayoutAccess',
+  );
+
+  return $info;
+}

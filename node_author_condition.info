@@ -1,0 +1,8 @@
+; Generated with Backdrop's 'Add-on Generator' module.
+name = Node Author Condition
+description = Adds a visibility condition to check if the current user is the node author or an administrator.
+backdrop = 1.x
+type = module
+maintainers[theflightrs] = RS Snyder
+tags[] = Blocks
+tags[] = Layouts
