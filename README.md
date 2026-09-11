@@ -29,7 +29,7 @@ Issues
 ------
 
 Bugs and feature requests should be reported in the issue queue:
-https://github.com/backdrop-contrib/author_admin_condition/issues
+https://github.com/theflightrs/Node-Author-Condition/issues
 
 
 Current Maintainers
